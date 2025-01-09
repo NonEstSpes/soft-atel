@@ -1,0 +1,49 @@
+@import "../../../../../styles/index.scss";
+
+.task-wrapper {
+  width: 438px;
+  height: 170px;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: $shadow-card;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 3px 10px 0 rgba(38, 58, 91, 0.2);
+  }
+  .task {
+    gap: 20px;
+    &__title {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      div {
+        background-color: black;
+        width: 16px;
+        height: 21px;
+      }
+      h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: $text-primary;
+      }
+      label {
+        min-width: 55px;
+        font-family: $font-family-inter;
+        font-weight: $font-weight-regular;
+        font-size: $font-size-medium;
+        line-height: $line-height-medium;
+        color: $text-secondary;
+        text-align: right;
+      }
+    }
+    &__progress {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+}

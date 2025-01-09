@@ -1,0 +1,53 @@
+// background
+
+$bg-gray-dark: #F1F2F4;
+$bg-blocks: #F9FAFC;
+$bg-field: #F5F6F8;
+$bg-menu: #FFFFFF;
+$bg-light: #FFFFFF;
+$bg-blue: #EFFAFF;
+$bg-border: 2px solid #000000;
+$divider: #E0E0E0;
+
+// text
+
+$text-primary: #242424;
+$text-text: #5E5E5E;
+$text-secondary: #7E7E7E;
+$text-service: #B0B0B0;
+$link: #005BD1;
+$link-visited: #528FDF;
+
+// special
+
+$active_blue: #16A4E3;
+$green: #1BBA69;
+$red: #CE0000;
+$orange: #FF9000;
+$while: #FFFFFF;
+
+
+// error
+
+$bug-blocked: #FF0000;
+$bug-critical: #A90C26;
+$bug-major: #ED4E4E;
+$bug-minor: #FF7002;
+$bug-trivial: #B0B0B0;
+
+// typography
+
+$font-family-inter: 'Inter', sans-serif;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-size-small: 13px;
+$font-size-medium: 14px;
+
+$line-height-small: 18px;
+$line-height-medium: 21px;
+
+// shadow
+
+$shadow-card: 0px 3px 10px 0px rgba(38, 58, 91, 0.05);
+$shadow-modal: 0px -2px 6px 0px rgba(0, 7, 62, 0.05), 0px 16px 32px 0px rgba(0, 7, 62, 0.08);
+$shadow-menu: 0px 2px 6px 0px rgba(0, 7, 62, 0.05), 0px 12px 24px 0px rgba(0, 7, 62, 0.10);
