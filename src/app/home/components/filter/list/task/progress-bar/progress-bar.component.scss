@@ -1,0 +1,12 @@
+@import "../../../../../../styles/index.scss";
+
+.progress-bar {
+  display: flex;
+  gap: 4px;
+  div {
+    flex-grow: 1;
+    height: 2px;
+    border-radius: 20px;
+    background-color: $divider;
+  }
+}

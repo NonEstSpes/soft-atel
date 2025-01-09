@@ -1,0 +1,33 @@
+@import "../../../../../../styles/index.scss";
+
+.executortime {
+  display: flex;
+  flex-direction: row;
+  height: 18px;
+  label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7E7E7E;
+    text-align: right;
+  }
+  &__time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 18px;
+      color: #B0B0B0;
+    }
+  }
+
+  &__excutor {
+    display: flex;
+    flex-direction: row;
+  }
+}
