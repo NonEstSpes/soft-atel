@@ -6,7 +6,7 @@ $bg-field: #F5F6F8;
 $bg-menu: #FFFFFF;
 $bg-light: #FFFFFF;
 $bg-blue: #EFFAFF;
-$bg-border: 2px solid #000000;
+$bg-border: 2px solid rgba(0, 0, 0, 0.04);
 $divider: #E0E0E0;
 
 // text
@@ -25,6 +25,7 @@ $green: #1BBA69;
 $red: #CE0000;
 $orange: #FF9000;
 $while: #FFFFFF;
+$black: #000000;
 
 
 // error
@@ -40,11 +41,14 @@ $bug-trivial: #B0B0B0;
 $font-family-inter: 'Inter', sans-serif;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
-$font-size-small: 13px;
-$font-size-medium: 14px;
+$font-size-0: 13px;
+$font-size-1: 14px;
+$font-size-2: 16px;
 
-$line-height-small: 18px;
-$line-height-medium: 21px;
+
+$line-height-0: 18px;
+$line-height-1: 21px;
+$line-height-2: 24px;
 
 // shadow
 

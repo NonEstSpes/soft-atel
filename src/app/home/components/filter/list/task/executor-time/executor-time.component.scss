@@ -5,11 +5,11 @@
   flex-direction: row;
   height: 18px;
   label {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #7E7E7E;
+    font-family:$font-family-inter;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-1;
+    line-height: $line-height-1;
+    color: $text-secondary;
     text-align: right;
   }
   &__time {
@@ -18,11 +18,11 @@
     align-items: center;
     margin-left: auto;
     p {
-      font-family: 'Inter', sans-serif;
-      font-weight: 400;
-      font-size: 13px;
-      line-height: 18px;
-      color: #B0B0B0;
+      font-family: $font-family-inter;
+      font-weight: $font-weight-regular;
+      font-size: $font-size-0;
+      line-height: $line-height-0;
+      color: $text-service;
     }
   }
 

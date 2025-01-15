@@ -1,2 +1,13 @@
-<p>list works!</p>
-<app-task/>
+<div class="list-wrap">
+  <div class="list">
+    <div class="list__title">
+      <button (click)="toggleList()"></button>
+      <p>Мои</p>
+    </div>
+    <div class="list__list" [ngClass]="{'visible': isListVisible, 'hidden': !isListVisible}">
+      <div *ngFor="let number of  numbers">
+        <app-task/>
+      </div>
+    </div>
+  </div>
+</div>

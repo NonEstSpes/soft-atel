@@ -1,0 +1,45 @@
+@import "../../../../styles/index.scss";
+
+
+.list-wrap {
+  .list {
+    width: 100%;
+    max-width: 500px;
+    &__title{
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      margin-bottom: 8px;
+      p {
+        font-family:$font-family-inter;
+        font-weight: $font-weight-medium;
+        font-size: $font-size-2;
+        line-height: $line-height-2;
+        color: $text-text;
+      }
+    }
+    &__list {
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      background-color: $bg-blocks;
+      border: $bg-border;
+      border-radius: 4%;
+      transition: max-height 300ms ease, opacity 300ms ease;
+      max-height: 0; /* Скрыто по умолчанию */
+      opacity: 0; /* Скрыто по умолчанию */
+      overflow: hidden; /* Скрыть переполнение */
+
+      &.visible {
+        max-height: 1000px; /* Достаточно большое значение для отображения */
+        opacity: 1; /* Показать */
+      }
+
+      &.hidden {
+        max-height: 0; /* Скрыть */
+        opacity: 0; /* Скрыть */
+      }
+    }
+  }
+}

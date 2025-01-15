@@ -6,6 +6,7 @@ import { TaskComponent } from './components/filter/list/task/task.component';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { ProgressBarComponent } from './components/filter/list/task/progress-bar/progress-bar.component';
 import { ExecutorTimeComponent } from './components/filter/list/task/executor-time/executor-time.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 
@@ -15,7 +16,8 @@ import { ExecutorTimeComponent } from './components/filter/list/task/executor-ti
     ListComponent,
     TaskComponent,
     ProgressBarComponent,
-    ExecutorTimeComponent
+    ExecutorTimeComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,
