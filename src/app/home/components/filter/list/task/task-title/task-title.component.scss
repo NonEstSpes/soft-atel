@@ -1,0 +1,31 @@
+@import "../../../../../../styles/index.scss";
+
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding-bottom: 6px;
+
+  div {
+    width: 16px;
+    height: 21px;
+  }
+
+  h1 {
+    font-family: $font-family-inter;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-3;
+    line-height: $line-height-2;
+    color: $text-primary;
+  }
+
+  label {
+    min-width: 55px;
+    font-family: $font-family-inter;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-3;
+    line-height: $line-height-2;
+    color: $text-secondary;
+    text-align: right;
+  }
+}

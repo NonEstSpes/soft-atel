@@ -8,6 +8,7 @@ import { ProgressBarComponent } from './components/filter/list/task/progress-bar
 import { ExecutorTimeComponent } from './components/filter/list/task/executor-time/executor-time.component';
 import { HomeComponent } from './components/home/home.component';
 import { ManagementComponent } from './components/filter/list/task/management/management.component';
+import { TaskTitleComponent } from './components/filter/list/task/task-title/task-title.component';
 
 
 
@@ -19,7 +20,8 @@ import { ManagementComponent } from './components/filter/list/task/management/ma
     ProgressBarComponent,
     ExecutorTimeComponent,
     HomeComponent,
-    ManagementComponent
+    ManagementComponent,
+    TaskTitleComponent
   ],
   imports: [
     CommonModule,

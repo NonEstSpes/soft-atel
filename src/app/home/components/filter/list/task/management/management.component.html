@@ -1,14 +1,14 @@
 <div *ngIf="!isWorked(); else worked" class="management">
   <div class="management__not-worked">
-    <button id="fix">Исправить</button>
-    <button id="work">В работу</button>
-    <button id="accept">Принять</button>
+    <button id="fix">{{Title.Fix}}</button>
+    <button id="work">{{Title.Work}}</button>
+    <button id="accept">{{Title.Accept}}</button>
   </div>
 </div>
 
 <ng-template #worked>
   <div class="management__worked">
-      <button id="pause">На паузу</button>
-      <button id="done">Готово</button>
+      <button id="pause">{{Title.Pause}}</button>
+      <button id="done">{{Title.Done}}</button>
   </div>
 </ng-template>
