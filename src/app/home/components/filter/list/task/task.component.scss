@@ -11,6 +11,10 @@
 
   &:hover {
     box-shadow: 0 3px 10px 0 rgba(38, 58, 91, 0.2);
+
+    app-management {
+      display: flex;
+    }
   }
   .task {
     gap: 20px;
@@ -18,31 +22,52 @@
       display: flex;
       flex-direction: row;
       gap: 8px;
+      padding-bottom: 6px;
       div {
         width: 16px;
         height: 21px;
       }
       h1 {
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
+        font-family: $font-family-inter;
+        font-weight: $font-weight-medium;
+        font-size: $font-size-3;
+        line-height: $line-height-2;
         color: $text-primary;
       }
       label {
         min-width: 55px;
         font-family: $font-family-inter;
         font-weight: $font-weight-regular;
-        font-size: $font-size-1;
-        line-height: $line-height-1;
+        font-size: $font-size-3;
+        line-height: $line-height-2;
         color: $text-secondary;
         text-align: right;
       }
+
+
     }
-    &__progress {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
+    #cont {
+      &:hover {
+        //opacity: 0;
+        //transition-delay: 0.5s;
+        .task__progress {
+          display: none;
+        }
+        app-management {
+          display: flex;
+        }
+      }
+      &__progress {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        height: 33px;
+      }
+    }
+
+    app-management {
+      display: none;
     }
   }
 }
